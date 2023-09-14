@@ -10,6 +10,7 @@ int main()
 	list->AddTail(1);
 	list->AddTail(2);
 	list->AddTail(3);
+	list->AddHead(4);
 
 	auto copyLst = new DList<int>(*list);
 
